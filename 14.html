@@ -1,0 +1,32 @@
+<script type="text/javascript">
+// no return with parameter
+    // var n = parseInt(prompt("Enter a no : "));
+    
+    // factorial(n);
+
+    // function factorial(n){
+    //     var fact = 1;
+    //     var i;
+
+    //     for(i=1;i<=n;i++){
+    //         fact = fact * i;
+    //     }
+    //     document.write("Factorial of no is : "+fact);
+    // }
+
+// return with parameter
+    var n = parseInt(prompt("Enter a no : "));
+    
+    var ans = factorial(n);
+    document.write("Factorial of no is : "+ans);
+
+    function factorial(n){
+        var fact = 1;
+        var i;
+
+        for(i=1;i<=n;i++){
+            fact = fact * i;
+        }
+        return fact;
+    }
+</script>

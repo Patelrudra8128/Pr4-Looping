@@ -1,0 +1,15 @@
+<script type="text/javascript">
+    var a = 0, b = 1, c,i;
+    var no = parseInt(prompt("Enter the ending no : "));
+
+    document.write("<p>"+a+"</p>");
+    document.write("<p>"+b+"</p>");
+    c = a+b;
+    for(i=c;c<=no;i++){
+        document.write("<p>"+c+"</p>");
+        a = b;
+        b = c;
+        c = a+b;
+    }
+
+</script>
